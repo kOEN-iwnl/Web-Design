@@ -1,0 +1,43 @@
+h1.red {
+  font-size: 100px;
+  font-family: 'Nixie One', cursive;
+  Text-align: center;
+    color: aqua
+        }
+
+h1.blue {
+    font-size: 100px;
+    font-family: 'Nixie One', cursive;
+    text-align:: center;
+    color: black
+}
+            
+h6 {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Nixie One', cursive;
+            }
+            
+h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Nixie One', cursive;
+            }
+body {
+    background-image: -ms-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #DEE094 100%);
+
+    background-image: -moz-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #DEE094 100%);
+
+    background-image: -o-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #DEE094 100%);
+
+    background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, #FFFFFF), color-stop(100, #DEE094));
+
+    background-image: -webkit-radial-gradient(center, ellipse closest-corner, #FFFFFF 0%, #DEE094 100%);
+
+    background-image: radial-gradient(ellipse closest-corner at center, #FFFFFF 0%, #DEE094 100%);
+            }
+            
+a {
+    font-size: 45px;
+    color: black
+            }

@@ -1,0 +1,197 @@
+<html>
+	<head>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	<style type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Vollkorn+SC" rel="stylesheet">
+	</style>
+	
+	</head>
+	
+	<body>
+	<h1 class='title' align='center'>
+			HTML Guide
+		</h1>
+		
+		<ul>
+			<li><a href = "index.html">Introduction</a></li>
+			<li><a href = "html.html">HTML Guide</a></li>
+			<li><a href = "css.html">CSS Guide</a></li>
+			<li><a href = "portfolio.html">Portfolio of Previous Works</a></li>
+			<li><a href = "reflections.html">Reflection of this Course</a></li>
+		</ul>
+		
+        <p align='center'>
+        <img src='Images/coding.png' width='50%' align='center'>
+        </p>
+	
+	<hr/>
+	
+	<p class='content2'>
+		So what exactly is HTML coding? Well HTML coding is the language that coders use to put together websites like the one you
+		are viewing right now. While it may sound easy, there are many commands and things that coders need to remember. So I will
+		be teaching you the basic things of HTML coding (specifically HTML5).
+	</p>
+	
+	<h1 class='title_break' align='center'>
+		Important Tags of HTML
+	</h1>
+	
+	<table class='code'>
+		<tr>
+			<td>
+				<font align='center'>
+					<code>
+					&lt;html&gt;
+					</code>
+				</font>
+			</td>
+			<td>
+				<font align='center'>
+					This tag is what helps the browser know that the document is a HTML document.
+					Without this tag the browser will not know the code is a HTML document, so then
+					it won't display what you have coded.
+				</font>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<font align='center'>
+					<code>
+					&lt;head&gt;
+					</code>
+				</font>
+			</td>
+			<td>
+				<font align='center'>
+					The Head tag is a part of a HTML document. While content is not type here, this 
+					space is used for linking CSS files as well as loading custom fonts. This tag creates
+					a section on the document that allows the coder to customize the aesthetics of the
+					page.
+				</font>
+			</td>
+		</tr>
+		<tr>
+			<td width=50%>
+				<font align='center'>
+					<code>
+					&lt;body&gt;
+					</code>
+				</font>
+			</td>
+			<td>
+				<font align='center'>
+					The body tag is used to tell the browser to read what is coded below. The body
+					is used for creating the content and buttons on a webpage.
+				</font>
+			</td>
+		</tr>
+	</table>
+	
+	<h1 class='title_break' align='center'>
+		How to make a simple webpage
+	</h1>
+	
+	<p class='content2'>
+		To make a webpage, simply create a new document with a text editor of your choice.
+		Start off by typing &lt;html&gt; at the top of the document, then save the document
+		as a .html file. Now as previously mentioned, the key parts of a html document are the
+		&lt;head&gt; and &lt;body&gt; tags. These tags help the browser understand what the codes are for. A basic HTML document should be set up as:
+	</p>
+		
+    <p align='center'>
+    <img src='images/basic-html-screenshot.png' width='50%'>
+    </p>
+        
+    <h1 class='title_break' align='center'>
+        Ordered vs Unordered Lists: What is it? When to Use? How to use?
+    </h1>
+		
+    <p class='content2'>
+        So what's the deal with ordered lists and unordered lists? So what are they? To asnwer that question, ordered lists are sound like what they are. When HTML displays ordered lists, it shows either a number/letter by the item in the order that you typed. To use a number, the inline command &lt;ol type='*fill in value'&gt;. In the "fill in value" part, you can type: 1 for numbers; A for uppercase letters; a for lowercase letters; I for uppercase roman numbers; and i for lowercase roman numbers. For example, I used the lowercase roman numerals:
+        </p>
+    
+    <table>
+        <tr>
+            <td>
+                <img src='images/ordered-list.PNG' align='center'>
+            </td>
+            <td>
+                <img src="Images/ordered-list-code.PNG" align='center'>
+            </td>
+        </tr>
+    </table>
+    
+    <p class='content2'>
+        Now onto unorderd lists. Unlike ordered lists, all items are show as a list without any order. It uses bullet points instead of numbers or roman numerals. In terms of customizability, there are limited options. To change the bullet point style, it requires CSS coding. In your CSS document, type the following: list-style-type. The possible styles are: disc sets to bullet; circle sets to a circle; square sets to a square; none changes it so that no marker shows. Here is an example of using a cicle in an unordered list:
+        </p>
+        
+    <table>
+        <tr>
+            <td>
+                <img src='images/unordered-list.PNG'>
+            </td>
+            <td>
+                <img src='images/unordered-list-code.PNG'>
+            </td>
+        </tr>
+    </table>
+        
+        
+    <h1 class='title_break' align='center'>
+        How to Add an Image to a Page
+        </h1>
+        
+    <p class='content2'>
+        Chances are, you probably want to add an image to your webpage. Images are essential to a webpage, so visitors can understand what it is you're trying to say. But just how do you add an image? To start off, all you need is a sample image. To add an image, in the &lt;head&gt; part of the document type &lt;img src=' '&gt;. Inside the space between the quotation marks, you want to set the directory path for your image. Depending on where you have stored your image, the space is different each time. For example, if you created a folder called Images, and you have stored it inside the same folder, then your directory should be like: images/youfilename.jpg. As an example, I saved an image of puppies inside the "Images" folder. So your command line should be like:
+        </p>
+        
+    <p align='center'>
+        <img src='Images/cute-dog-code.PNG'>
+        </p>
+        
+    <p align='center'>
+        <img src='images/cute-dog-webpage.PNG'>
+        </p>
+        
+    <h1 class='title_break' aling='center'>
+        How to Add a Link to Your Webpage
+        </h1>
+        
+    <p class='content2'>
+        Now your average web page will contain some sort of link to redirect you to a different site or place. And now you want to attach your own link in your own document. How? It's a real simple process. By using the &lt;a&gt; tag, you defined your own link. When you see clickable links on a webpage, it also says the website name but not the full url. But how do you do that on your own? Well while using the &lt;a&gt; tag, you need to also end with a &lt;/a&gt;tag. So your full command line should look like &lt;a href='URL HERE'&gt;WHAT THE LINK SAYS ON A WEBPAGE&lt;/a&gt;.
+        </p>
+
+    <p align='center'>
+        <img src='Images/link-code.PNG'>
+        </p>
+        
+    <p align='center'>
+        <img src='Images/link.PNG'>
+        </p>
+    
+    <div align='center'>
+    <iframe src="https://giphy.com/embed/xUNd9Ferm4PgtmfvUI" width="960" height="540" frameBorder="0" class="giphy-embed" allowFullScreen align='center'></iframe>
+        </div>
+        
+    <h1 class='title_break' align='center'>
+        How to Add a Table
+        </h1>
+        
+    <p class='content2'>
+        When it comes to tables, it can be a great tool to use when formatting webpages. Tables can be visible and invisible depending on what you want, and you can utilize this to make invisble blocks for displaying information. Now to create a table, simply use the &lt;table&gt; command. Then you use &lt;tr&gt; to create a table row, and use &lt;td&gt; to start a column within the row. You can have unlimited amount of columns within a row. Within each &lt;td&gt; value, you can use something like &lt;font&gt; to show text. You can also use other things in the &lt;td&gt; value, like images as an example. So a simple 3 by 4 table should look like:
+        </p>
+        
+    <p align='center'>
+        <img src='Images/table-code.PNG'>
+        </p>
+        
+    <p align='center'>
+        <img src='Images/table.PNG'>
+        </p>
+    
+    <h1 class='titlep_break'>
+        Well these are the basics to HTML, but why stop there? Go check out the CSS section to make your webpage look even better?
+        </h1>
+        
+	</body>
+</html>

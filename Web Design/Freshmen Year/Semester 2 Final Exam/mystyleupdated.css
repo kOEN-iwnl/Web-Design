@@ -1,0 +1,64 @@
+/*
+Color scheme for this website:
+	##8E6DD7	div background color
+	#472B83	body color
+	#280671	link color
+	#7446D7	paragraph color
+	#8E6DD7	Background color
+	#CCCCCC	heading 2 color
+
+Unit 3 > Module 3 > Lesson 2
+
+In this lesson students carefully select
+a font-family for the body and headings
+
+They may also apply other typography-related styles
+such as text-shadow (for CSS3-aware browsers)
+
+The current style sheet has added text-shadow to h1
+*/
+body {
+	font-size: 1em;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	color: #472B83;
+	background-color: #8E6DD7;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+
+h1, h2, h3 {
+	font-family: Palatino, Georgia, serif;
+}
+h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #CCCCCC;
+	text-align: center;
+}
+h2 {
+	font-size: 1.6em;
+	color: #CCCCCC;
+}
+div {
+	border: 1px solid white;
+	padding: 1em;
+	margin: 1em;
+	background-color: #8E6DD7;
+}
+p {
+	margin: 1em;
+	padding: 1em;
+	font-family: Palatino, Georgia, serif;
+	font-style: italic;
+}
+a {
+	color: #280671;
+}
+
+th {
+	background-color: #999999;
+}
